@@ -1,12 +1,13 @@
-version: '3.8'
+version: '3.4'
 
 services:
   my-dotnet-app:
+    image: my-dotnet-app
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "5000:80"
+      - "5001:5002"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     volumes:
