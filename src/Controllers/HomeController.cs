@@ -1,12 +1,16 @@
+// filepath: my-dotnet-app/Controllers/HomeController.cs
 using Microsoft.AspNetCore.Mvc;
 
-namespace MyDotNetApp.Controllers
+namespace my_dotnet_app.Controllers
 {
-    public class HomeController : Controller
+    [ApiController]
+    [Route("[controller]")]
+    public class HomeController : ControllerBase
     {
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult Get()
         {
-            return View();
+            return Ok("Hello from HomeController!");
         }
     }
 }
