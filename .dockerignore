@@ -1,0 +1,17 @@
+bin/
+obj/
+*.sln
+*.user
+*.csproj
+*.db
+*.log
+*.md
+*.json
+*.xml
+.vscode/
+.dockerignore
+.git/
+.gitignore
+docker-compose.override.yml
+docker-compose.yml
+Dockerfile
