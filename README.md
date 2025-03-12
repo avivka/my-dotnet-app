@@ -47,7 +47,7 @@ To run the application using Docker, execute the following command:
 docker-compose up
 ```
 
-This command will start the application and make it accessible at `http://localhost:5000`.
+This command will start the application and make it accessible at `http://localhost:5001`.
 
 ### Stopping the Application
 
