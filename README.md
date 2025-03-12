@@ -36,6 +36,9 @@ To get started with this project, follow the instructions below.
    docker build -t my-dotnet-app .
    ```
 
+### Install Docker Compose
+https://docs.docker.com/compose/install/
+
 ### Running the Application
 
 To run the application using Docker, execute the following command:
