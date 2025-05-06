@@ -3,14 +3,24 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace my_dotnet_app.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class HomeController : ControllerBase
+    public class HomeController : Controller
     {
-        [HttpGet]
-        public IActionResult Get()
+        public IActionResult Index()
         {
-            return Ok("Hello from HomeController!");
+            ViewData["Message"] = "Welcome to my .NET application!";
+            return View();
+        }
+
+        public IActionResult About()
+        {
+            ViewData["Message"] = "This is the about page.";
+            return View();
+        }
+
+        public IActionResult Contact()
+        {
+            ViewData["Message"] = "Get in touch with us.";
+            return View();
         }
     }
 }
