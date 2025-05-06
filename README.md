@@ -61,6 +61,8 @@ docker-compose down
 
 Once the application is running, you can access it in your web browser. The HomeController provides an Index method that handles HTTP requests.
 
+Troublshoot your local docker using the cheet sheet: https://docs.docker.com/get-started/docker_cheatsheet.pdf
+
 ## Contributing
 
 Feel free to submit issues or pull requests if you have suggestions for improvements or features.
