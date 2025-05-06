@@ -44,7 +44,7 @@ https://docs.docker.com/compose/install/
 To run the application using Docker, execute the following command:
 
 ```
-docker-compose up
+docker-compose up -d
 ```
 
 This command will start the application and make it accessible at `http://localhost:5001`.
